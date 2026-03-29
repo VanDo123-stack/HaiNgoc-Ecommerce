@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { type NewsArticle } from "~/types/news";
 
+
 export function NewsCard({ article }: { article: NewsArticle }) {
   return (
     <Link href={`/tin-tuc/${article.slug}`}>
