@@ -5,6 +5,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { Search } from "lucide-react";
 
+
 import { type Product } from "~/types/product";
 import {
   Breadcrumb,
