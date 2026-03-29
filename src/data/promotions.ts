@@ -13,6 +13,7 @@ export interface Promotion {
   image?: string;
 }
 
+
 export interface Combo {
   id: string;
   name: string;
