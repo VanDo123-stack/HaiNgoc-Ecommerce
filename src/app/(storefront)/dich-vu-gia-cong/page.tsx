@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   description: "Dịch vụ gia công cơ khí chuyên nghiệp tại Hải Ngọc.",
 };
 
+
 export default function DichVuGiaCongPage() {
   return (
     <main className="container mx-auto max-w-7xl px-4 py-12">
