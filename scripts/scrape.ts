@@ -8,6 +8,7 @@
  * Run with: npx tsx scripts/scrape.ts
  */
 
+
 import { chromium, type Page } from "playwright";
 import sharp from "sharp";
 import slugify from "slugify";
