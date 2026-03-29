@@ -3,6 +3,7 @@ import { type ReportData } from "~/types/admin";
 // IMPORTANT: Admin panel data only — never import in storefront code.
 // Deterministic report data — no Math.random(), all values fixed.
 
+
 export const reportData: ReportData = {
   // 1. Monthly revenue — 12 months T1-T12 (2024 full year)
   monthlyRevenue: [
