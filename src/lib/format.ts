@@ -6,6 +6,7 @@ const vndFormatter = new Intl.NumberFormat("vi-VN", {
   maximumFractionDigits: 0,
 });
 
+
 /**
  * Format a number as Vietnamese Dong (VND) currency string.
  * Returns "Lien he" if amount is null or undefined.
